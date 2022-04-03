@@ -1,0 +1,16 @@
+.table_title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.table_data{
+   border: 1px solid black;
+   width: 100%;
+   background-color: rgb(204, 208, 208);
+   text-align: center;
+   padding: 15px 0;
+}
+.name{
+   background-color: aqua;
+   text-transform: uppercase;
+}
