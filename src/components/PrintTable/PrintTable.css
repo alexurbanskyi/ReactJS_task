@@ -11,6 +11,11 @@
    padding: 15px 0;
 }
 .name{
-   background-color: aqua;
+   background-color: rgb(159, 218, 243);
    text-transform: uppercase;
+   font-size: 18px;
+}
+.warning{
+   text-align: center;
+   font-size: 25px;
 }

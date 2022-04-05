@@ -7,7 +7,7 @@ import tableData from './Data/data';
 
 function App() {
 
-  const defaultTab = ['brand', 'year', 'color', 'fuel'];
+  const defaultTab = ['brand', 'color', 'year'];
   const allColumns = Object.keys(tableData[0]);
   const remain = allColumns.filter(i => defaultTab.indexOf(i) < 0)
   

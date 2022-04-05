@@ -6,6 +6,8 @@ const tableData = [
       brand: 'BMW',
       price: 11200,
       year: 2010,
+      'road accident': 'true',
+      tank: 70      
     },
     {
       color: 'black',
@@ -14,6 +16,8 @@ const tableData = [
       brand: 'Audi',
       price: 10000,
       year: 2014,
+      'road accident': 'false',
+      tank: 40 
     },
     {
       color: 'white',
@@ -22,6 +26,8 @@ const tableData = [
       brand: 'Nissan',
       price: 19000,
       year: 2019,
+      'road accident': 'true',
+      tank: 50  
     },
     {
       color: 'green',
@@ -30,6 +36,8 @@ const tableData = [
       brand: 'Nissan',
       price: 15500,
       year: 2018,
+      'road accident': 'false',
+      tank: 65  
     },
    
 ]

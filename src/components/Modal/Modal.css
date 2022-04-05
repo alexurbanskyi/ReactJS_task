@@ -47,14 +47,61 @@
    
 }
 .grids{
+   padding: 20px;
+   font-size: 20px;
    text-align: center;
    border-radius: 10px;
    width: 250px;
    height: 400px;
    margin: 10px;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
    background-color: rgb(223, 219, 219);
+   position: relative;
 
+}
+.added{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom: 1px solid black;
+   padding: 5px 20px;
+}
+.add_wrapper{
+ width: 100%;
+}
+.remain_wrapper{
+   width: 100%;
+}
+
+.delete{
+   font-size: 20px;
+   transition: all ease-in-out 0.3s;
+}
+.delete:hover{
+   color: red;
+   cursor: pointer;
+}
+.remain{
+   border-bottom: 1px solid black;
+   padding: 5px 20px;
+   width: 100%;
+   text-align: left;
+   cursor: move;
+}
+
+.btn_holder{
+   display: flex;
+   justify-content: end;
+}
+input{
+   position: absolute;
+   top: 20px;
+   left: 30px;
+   padding: 10px;
+   border: none;
+   outline: none;
 }
